@@ -1,0 +1,58 @@
+.Login-section1{
+	display:flex;
+	justify-content:center;
+	height:70vh;
+}
+
+.Login-section1 form{
+	padding: 10px 20px 15px 20px;
+    border: 1px solid #777777;
+    background: #ffffff;
+	box-shadow: 2px 2px 3px #515862;
+	width: 440px;
+}
+.Login-section1 form h4{
+	font-size: 1.6em;
+    color: #178e50;
+}
+.Login-section1-main{
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+	padding:5px 37px 0px 25px;
+}
+.login-inputs{
+	position:relative;
+	display:inline-block;
+}
+.login-inputs i{
+	position:absolute;
+	left:10px;
+	top:50%;
+	transform:translateY(-50%);
+}
+.login-inputs input{
+	padding-left:30px;
+	padding-right:30px;
+	width:335px;
+}
+.acc-login-button{
+	margin-top:25px;
+	display:flex;
+	justify-content:flex-end;
+}
+.acc-login-btn{
+	padding:5px 15px;
+	background-color:#15703c;
+	color:white;
+	border:none;
+	border-radius:3px;
+	cursor:pointer;
+}
+.acc-login-btn:hover{
+	background-color:#6EB375;
+	padding:6px 18px;
+}
+.login-getIt{
+	color:#0069A8;
+}

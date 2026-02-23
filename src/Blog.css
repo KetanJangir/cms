@@ -1,0 +1,217 @@
+/* Blog Section1 Slider */
+.Blog-section1{
+	margin-top:15px;
+}
+.carousel-item {
+  /* height: 100vh; */
+  min-height: 600px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  filter:contrast(65%);
+  position: relative;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.carousel-caption h5 {
+  font-size: 72px;
+  font-weight: bold;
+  filter:contrast(6.22);
+}
+.carousel-caption p {
+  font-size:25px;
+  filter:contrast(6.22);
+  font-weight:600;
+}
+.btn-custom {
+	background: none;
+	border: none;
+	color: #28a745;
+	font-family: Poppins;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-transform: none;
+	filter:contrast(6.22);
+}
+.btn-custom:hover {
+  color: #1e7e34;
+}
+
+/* Blog Section2 */
+.Blog-section2{
+	display:flex;
+	justify-content:center;
+	gap:75px;
+}
+.Blog-section2-top{}
+.Blog-section2-box1{
+	margin-top:70px;
+}
+.Blog-section2-box1 h4{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+	color:#1f1f1f80;
+}
+.Blog-section2-box1 h2{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    letter-spacing: .5px;
+	color:#1c1c1c;
+}
+.Blog-section2-box1 img{
+	width:701px;
+	height:467.56px;
+}
+.Blog-section2-box1 p{
+	margin-top:15px;
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .5px;
+    line-height: 1.3em;
+}
+.Blog-section2-box1-paras{
+	display:flex;
+	gap:15px;
+}
+.Blog-section2-box1-paras p{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+	color:#1f1f1f80;
+}
+.Blog-section2-box1 a{
+	color:green;
+}
+.Blog-section2-box1 a:hover{
+	cursor:pointer;
+}
+.blog-section2-OlderPosts{
+	margin-top:50px;
+	color:#589b65;
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+	text-align:right;
+	margin-bottom: 40px;
+}
+.blog-section2-OlderPosts:hover{
+	cursor:pointer;
+}
+
+/* section2 Bottom boxes */
+.Blog-section2-bottom{
+	margin-top:70px;
+}
+.Blog-section2-bottom h1{
+	font-size:18px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.Blog-section2-bottom-box1{
+	display:flex;
+	flex-direction:column;
+	gap:30px;
+}
+.Blog-section2-bottom-box1 img{
+	width:191px;
+	height:191px;
+}
+/* Box2 */
+.Blog-section2-bottom-box2{}
+.Blog-section2-bottom-box2 h4{
+	text-align:center;
+	font-family: Poppins;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+.Blog-section2-bottom-box2 form{
+	display:flex;
+	flex-direction:column;
+}
+.Blog-section2-bottom-box2 form label{
+	color: #33475b;
+	font-family: Poppins;
+	font-weight: 500;
+    line-height: 20px;
+	margin-top:20px;
+}
+.Blog-section2-bottom-box2 form input{
+	padding:10px 15px;
+	border-radius:15px;
+	margin-top:5px;
+	background-color:;
+	border:1px solid grey;
+}
+.Blog-section2-bottom-box2 form input:hover{
+	border:1px solid blue;
+}
+.Blog-section2-bottom-box2 form input[type=button]{
+	color:white;
+	background-color:#63be75;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:12px 24px;
+	border:none;
+}
+
+/* box3 */
+.Blog-section2-bottom-box3{}
+.Blog-section2-bottom-box3 h2{
+	font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+	font-weight:700;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.Blog-section2-bottom-box3 li{
+	list-style:none;
+	color: #1f1f1f;
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+	letter-spacing: .5px;
+    line-height: 1.8em;
+	font-size:14px;
+}
+.Blog-section2-bottom-box3 li:hover{
+	cursor:pointer;
+}
+.Blog-section2-bottom-box3 h3{
+	text-transform:uppercase;
+	font-size:18px;
+	text-align:center;
+	margin-top:20px;
+}
+.Blog-section2-bottom-box3 p{
+	text-align:center;
+	color:#589b65;
+}
+.Blog-section2-bottom-box3 p:hover{
+	cursor:pointer;
+}

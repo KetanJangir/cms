@@ -1,0 +1,68 @@
+.navbar{
+	margin:0;
+}
+.navbar img{
+	margin-left:10px;
+}
+.navabar-logo{
+	display:flex;
+}
+.navbar-lists{
+	display:flex;
+	justify-content:flex-end;
+	gap:10px;
+	background-color:white;
+	color:black;
+	align-items:center;
+	border-radius:5px;
+	padding:0px 0px 0px 0px;
+}
+.navbar-lists a{
+	color:black;
+	text-decoration:none;
+}
+.home-li{
+	color:green;
+}
+.navbar-lists li{
+	list-style:none;
+	font-family:poppins;
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:10px 5px 10px 10px;
+}
+.navbar li:hover{
+	color:green;
+	cursor:pointer;
+}
+.Invoice-btn{
+	padding:10px 16px;
+	color:#6eb375;
+	border:1px solid #6eb375;
+	text-transform:uppercase;
+	font-size:12px;
+	border-radius:3px;
+	font-weight:600;
+	background-color:white;
+}
+.Invoice-btn:hover{
+	background-color:rgb(143 233 161 / 80%);
+	cursor:pointer;
+}
+.login-btn{
+	margin-right:20px;
+	margin-left:18px;
+	padding:10px 16px;
+	color:white;
+	border:none;
+	text-transform:uppercase;
+	font-size:12px;
+	border-radius:3px;
+	font-weight:600;
+	background-color:#6eb375;
+}
+.login-btn:hover{
+	background-color:rgb(143 233 161 / 80%);
+	cursor:pointer;
+}
